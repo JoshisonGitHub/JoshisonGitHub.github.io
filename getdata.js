@@ -15,7 +15,7 @@ function loadJSON(path, success, error) {
     xhr.send();
   }
   
-  loadJSON("https://docs.google.com/spreadsheets/d/e/2PACX-1vScByvw0FSA_1Loy83T8r60ahM-EAtzL5bRvfCpxFOMj7Gp562E9WNZzQ4u4HVkJrzC2e6tI20ojlY1/pubhtml", myData,'jsonp');
+  loadJSON("https://jsonplaceholder.typicode.com/posts", myData,'jsonp');
   
   function myData(Data)
   {
