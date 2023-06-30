@@ -22,7 +22,7 @@ function loadJSON(path, success, error) {
   
     // Output only the details on the first post
     console.log(Data[0]);
-  
+    console.log(myData)
     // output the details of first three posts
     console.log("First three posts");
     for(var i=0; i<3; i=i+1)
