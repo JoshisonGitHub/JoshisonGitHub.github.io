@@ -1,0 +1,11 @@
+{
+  "name": "anisoc-website",
+  "version": "1.0.0",
+  "description": "Anime Society Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh",
+  "license": "ISC"
+}
