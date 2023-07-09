@@ -1,0 +1,43 @@
+body {
+
+    background-color: rgb(129, 2, 123);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    background-image: none;
+}
+
+
+
+
+
+.dropdown:hover .dropdown-menu {
+    /* drop down hover from https://stackoverflow.com/questions/16214326/bootstrap-dropdown-with-hover */
+    display: block;
+    margin-top: 0;
+
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    /* change color from https://mdbootstrap.com/support/general/navbar-dropdown-color-scheme-and-highlighted-items/ */
+    background-color: darkred !important;
+}
+
+.btn-outline-red:hover {
+    background-color: darkred !important;
+
+}
+
+.btn {
+    color: white !important;
+
+}
+
+
+
+button {
+    border: none !important;
+}
+
