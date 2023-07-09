@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     height: auto;
-    background-image: none;
+    background-image: url("purplewave.gif") !important;
 }
 
 
@@ -25,19 +25,33 @@ body {
     background-color: darkred !important;
 }
 
-.btn-outline-red:hover {
-    background-color: darkred !important;
 
-}
-
-.btn {
-    color: white !important;
-
-}
 
 
 
 button {
     border: none !important;
+}
+
+.navbar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    
+    background-color: #0F3E6B;
+}
+
+.navbar li a{
+    color:#FFE882
+}
+
+.navbar li a:hover{
+    color:#FD0401
+}
+
+.navbar-collapse {    
+    display: flex !important;
+    gap: 1em;
+    font-size: 17px;
 }
 

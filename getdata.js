@@ -37,3 +37,5 @@ function loadJSON(path, success, error) {
       console.log(Data[i].id);
     }
   }
+
+  document.body.style.backgroundImage = "url(purplewave.gif)"
