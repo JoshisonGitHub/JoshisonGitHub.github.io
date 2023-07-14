@@ -41,3 +41,9 @@ function votinglist() {
     x = document.getElementById("votinglist");
     change();
 }
+
+function vote_for_show() {
+    x.style.display = "none"
+    x = document.getElementById("voteforshow");
+    change();
+}

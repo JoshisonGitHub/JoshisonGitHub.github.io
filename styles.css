@@ -12,18 +12,7 @@ body {
 
 
 
-.dropdown:hover .dropdown-menu {
-    /* drop down hover from https://stackoverflow.com/questions/16214326/bootstrap-dropdown-with-hover */
-    display: block;
-    margin-top: 0;
 
-}
-
-.dropdown-item:focus,
-.dropdown-item:hover {
-    /* change color from https://mdbootstrap.com/support/general/navbar-dropdown-color-scheme-and-highlighted-items/ */
-    background-color: darkred !important;
-}
 
 
 
@@ -31,7 +20,22 @@ body {
 
 button {
     border: none !important;
+    outline: none !important;
+    background-color: none !important;
 }
+
+.btn:active{
+
+    background-color: white !important;
+    
+}
+.btn{
+    border: none !important;
+    outline: none !important;
+    background-color: black !important;
+}
+
+
 
 .navbar {
     display: flex !important;
@@ -55,3 +59,8 @@ button {
     font-size: 17px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}

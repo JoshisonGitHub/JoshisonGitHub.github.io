@@ -25,7 +25,7 @@
 
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-brand text-white btn-outline-red bg-dark" onclick="base_page()" type="button"><b>Anime Society</b></button>
+    <button class="navbar-brand text-white bg-transparent" onclick="base_page()" type="button"><b>Anime Society</b></button>
     
 
 
@@ -35,27 +35,31 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <button class="nav-link text-white btn-outline-red bg-dark" onclick="votinglist()" type="button">Voting List</button>
+          <button class="nav-link text-white bg-transparent" onclick="votinglist()" type="button">Voting List</button>
         </li>
         <li class="nav-item">
-          <button class="nav-link text-white btn-outline-red bg-dark" onclick="game_archive()" type="button">Vote for a Show</button>
+          <button class="nav-link text-white bg-transparent" onclick= "vote_for_show()" type="button">Vote for a Show</button>
         </li>
         <li class="nav-item">
-          <button class="nav-link text-white btn-outline-red bg-dark" onclick="archive()" type="button">Archive</button>
+          <button class="nav-link text-white bg-transparent" onclick="archive()" type="button">Archive</button>
         </li>
             
       </ul>
+     
+          
+    </div>
+    <div class="collapse navbar-collapse text-align: right " id="navbarText">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item ">
-          <button class="nav-link text-white btn-outline-red bg-dark" onclick="turn_off_background()" type="button">Remove Background Image</button>
+        <li class="nav-item">
+          <button class="btn nav-link text-white bg-dark" onclick="turn_off_background()" type="button">Remove Background Image</button>
         </li>
       </ul>
-
-          
     </div>
   </nav>
   <div id = "Archive" style="display: none; text-align: center;">
+    <hr>
     <h1><u>Archive</u></h1>
+    <hr>
     <h3>Check out all the shows we've watched previously!</h3>
     <p> 
 
@@ -71,6 +75,42 @@
 
   <div id = "votinglist" style="display: none;">
     this is a test: current page voting list
+  </div> 
+
+  <div id = "voteforshow" style="display: none;">
+    <hr>
+    
+    <h1 style = "text-align: center;">Vote for a Show!</h1>
+    <hr>
+    <hr>
+    <h3 style = "text-align: center;"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Link</a> to vote for a show</h3>
+    <div class = "grid-container">
+
+      <div style = "background: black; 
+            font-size: 20px; 
+            padding: 10px; 
+            border: 1px solid lightgray; 
+            margin: 100px;" class = "grid-child">
+        <h3>Rules</h3>
+        <p>1. Must be an Anisoc member.</p>
+        <p>2. Don't vote for the same show twice.</p>
+        <p>3. When voting for a show that has already been voted for once, write the name of the show the exact same way.</p>
+        <p>4. Try not to vote for a show that we have already watched.</p>
+      </div>
+
+      <div style = "background: black; 
+            font-size: 20px; 
+            padding: 10px; 
+            border: 1px solid lightgray; 
+            margin: 100px;" class = grid-child>
+        <h3>Information</h3>
+        <p>1. A code is needed for your vote to count. This code can be found pinned in the members channel on the Anisoc Discord.</p>
+        <p>2. Vote for as many shows/films as you like!</p>
+        <p>3. Voting is anonymous.</p>
+        <p>4. See archive for shows that have already been watched.</p>
+        <p>5. Voting List will be updated once every week, so if your show hasn't been listed yet on the page fret not!</p>
+      </div>
+    </div>
   </div> 
     
 
