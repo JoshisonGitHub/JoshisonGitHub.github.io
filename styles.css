@@ -19,48 +19,65 @@ body {
 
 
 button {
-    border: none !important;
-    outline: none !important;
-    background-color: none !important;
+    border: transparent !important;
+    outline: transparent !important;
+    background-color: transparent !important;
 }
 
 .btn:active{
 
-    background-color: white !important;
-    
+    background-color: transparent !important;
+    border: transparent !important;
+    outline: transparent !important;
 }
 .btn{
-    border: none !important;
-    outline: none !important;
-    background-color: black !important;
+    border: transparent !important;
+    outline: transparent !important;
+    background-color: transparent !important;
+}
+
+.bgbtn{
+    border: transparent !important;
+    outline: transparent !important;
+    background-color: transparent !important;
 }
 
 
 
-.navbar {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    
-    background-color: #0F3E6B;
-}
 
-.navbar li a{
-    color:#FFE882
-}
 
-.navbar li a:hover{
-    color:#FD0401
-}
 
-.navbar-collapse {    
-    display: flex !important;
-    gap: 1em;
-    font-size: 17px;
+
+
+.navbar-custom {
+    background-color: rgb(107, 4, 133);
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto !important;
     
+}
+
+.grid-child {
+    background: darkblue; 
+    font-size: 15px; 
+    padding: 10px; 
+    border: 1px solid lightgray; 
+    margin: 15px;
+}
+
+@media only screen and (min-width: 640px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        
+    }
+    .grid-child {
+        background: darkblue; 
+        font-size: 20px; 
+        padding: 10px; 
+        border: 1px solid lightgray; 
+        margin: 100px;
+    }
 }
