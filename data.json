@@ -1,18 +1,22 @@
 [
     {
-        "timestamp": "2023-06-29T14:25:32.460Z",
-        "pick": "Option 1"
+        "timestamp": "2023-07-20T13:54:41.388Z",
+        "digitMembersCode": 1234,
+        "nameOfTheShowFilm": "Tokyo Ghoul"
     },
     {
-        "timestamp": "2023-06-29T14:25:58.441Z",
-        "pick": "Option 2"
+        "timestamp": "2023-07-20T13:54:58.375Z",
+        "digitMembersCode": 1234,
+        "nameOfTheShowFilm": "Chainsaw Man"
     },
     {
-        "timestamp": "2023-06-29T14:27:52.960Z",
-        "pick": "Option 1"
+        "timestamp": "2023-07-20T13:55:09.566Z",
+        "digitMembersCode": 1111,
+        "nameOfTheShowFilm": "Tokyo Ghoul"
     },
     {
-        "timestamp": "2023-06-29T14:28:33.128Z",
-        "pick": "Option 2"
+        "timestamp": "2023-07-20T13:55:16.264Z",
+        "digitMembersCode": 1234,
+        "nameOfTheShowFilm": "Chainsaw Man"
     }
 ]

@@ -81,3 +81,15 @@ button {
         margin: 100px;
     }
 }
+
+
+/* Set the text color for the chart title and axis labels */
+#container .e-title-text,
+#container .e-axis-labels text {
+    fill: white !important; /* Change the text color to white */
+}
+
+/* Set the text color for the data labels */
+#container .e-datalabel text {
+    fill: white !important;  /* Change the text color to white */
+}
