@@ -23,22 +23,8 @@ body {
 }
 
 
-.btn-member{
-    background-color: green !important;
-    border: black !important;
-    outline: black !important;
-    display: flex !important;
-    
-}
-.btn-member:active{
-    background-color: green !important;
-    border: black !important;
-    outline: black !important;
-    display: flex;
-    
-    
-    
-}
+
+
 
 
 button {
@@ -127,11 +113,12 @@ button {
     }
     
     
+    
 }
 
 .btn-social{
     margin: 10px 50px !important;
-    
+    width: 200px;
 }
 
 .button-container{
@@ -186,3 +173,5 @@ hr.custom {
 .text-welcome{
     margin: 0px 50px
 }
+
+
