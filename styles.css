@@ -122,12 +122,15 @@ button {
         margin-bottom: 10px;
         
     }
+    .text-welcome{
+        margin: 0px 100px
+    }
     
     
 }
 
 .btn-social{
-    margin: 0px 50px !important;
+    margin: 10px 50px !important;
     
 }
 
@@ -178,4 +181,8 @@ hr.custom {
     align-items: center;
     justify-content: center
 }
-  
+
+
+.text-welcome{
+    margin: 0px 50px
+}
