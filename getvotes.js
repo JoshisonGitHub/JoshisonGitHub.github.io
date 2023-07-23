@@ -55,7 +55,8 @@ http.onload = function(){
             title: 'Voting List',
         
 
-            background: "white",
+            background: "transparent",
+            
             //Initializing Primary X Axis
             primaryXAxis: {
                 valueType: "Category",
@@ -64,7 +65,8 @@ http.onload = function(){
             },
             //Initializing Primary Y Axis
             primaryYAxis: {
-                title: "Number of Votes"
+                title: "Number of Votes",
+                
             },
             //Initializing Chart Series
             series: [
@@ -78,15 +80,26 @@ http.onload = function(){
                     yName: "votes",
                     dataLabel: {
                         visible: true,
-                    }
+                       
+                    },
+                    marker: {
+                        dataLabel: { visible: true },
+                       
+                    },
+                    
                 }
-            ]
+            ],
+           
         });
         chart.appendTo("#container");
 
-        document.querySelector(" .votes").innerHTML = output;
+        
+
+        
     }
 }
+
+
 
 
 function getRandomColor() {
@@ -99,6 +112,7 @@ function getRandomColor() {
     var hexColor = "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
     
     return hexColor;
-  }
+}
 
+document.querySelector(" .votes").innerHTML = output;
 

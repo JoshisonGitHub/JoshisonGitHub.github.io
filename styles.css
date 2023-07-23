@@ -1,9 +1,9 @@
 body {
 
     background-color: rgb(79, 6, 79) !important;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-repeat: no-repeat !important;
+    
+    background-size: cover !important;
     height: auto;
     background-image: url("purplewave.gif");
 }
@@ -141,6 +141,10 @@ button {
 /* Set the text color for the data labels */
 #container .e-datalabel text {
     fill: white !important;  /* Change the text color to white */
+}
+
+#container .e-chart .e-series-container text {
+    fill: white !important; /* Set the desired text color here */
 }
 
 hr.custom {
