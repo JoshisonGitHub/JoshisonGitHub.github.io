@@ -53,20 +53,35 @@ http.onload = function(){
         var chart = new ej.charts.Chart({
 
             title: 'Voting List',
-        
-
+            
+            titleStyle:{
+                color: 'white',
+                fontFamily: "Arial",
+                fontStyle: 'italic',
+                fontWeight: 'regular',
+                size: '50px'
+            },
+            
+            margin: { left: 20, right: 20, top: 20, bottom: 20 },
             background: "transparent",
+
+           
             
             //Initializing Primary X Axis
             primaryXAxis: {
                 valueType: "Category",
                 title: "Shows / Films",
-                
+                titleStyle: { color: 'white' },
+                labelStyle: { color: 'white' },
             },
             //Initializing Primary Y Axis
             primaryYAxis: {
                 title: "Number of Votes",
-                
+                titleStyle: { color: 'white' },
+                labelStyle: { color: 'white' },
+                minimum: 0,
+                interval: 1,
+
             },
             //Initializing Chart Series
             series: [
@@ -78,14 +93,15 @@ http.onload = function(){
                     dataSource: data,
                     xName: "name",
                     yName: "votes",
-                    dataLabel: {
-                        visible: true,
-                       
-                    },
+                   
                     marker: {
-                        dataLabel: { visible: true },
-                       
+                        dataLabel: { visible: true, 
+                            font: {color: '#ffffff' },
+                        
+                        },
+                        
                     },
+                  
                     
                 }
             ],
