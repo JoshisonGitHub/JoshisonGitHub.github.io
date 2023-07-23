@@ -62,7 +62,7 @@ http.onload = function(){
                 size: '50px'
             },
             
-            margin: { left: 20, right: 20, top: 20, bottom: 20 },
+            
             background: "transparent",
 
            

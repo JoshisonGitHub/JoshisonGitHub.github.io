@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat !important;
     
     background-size: cover !important;
-    height: auto;
+    height: 100% !important;
     background-image: url("purplewave.gif");
 }
 
