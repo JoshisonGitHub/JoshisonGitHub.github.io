@@ -111,8 +111,7 @@ button {
     .text-welcome{
         margin: 0px 100px
     }
-    
-    
+   
     
 }
 
@@ -127,6 +126,7 @@ button {
     flex-wrap: wrap;
     flex-basis: 100%;
 }
+
 
 
 
@@ -177,5 +177,9 @@ hr.custom {
 .text-welcome{
     margin: 0px 50px
 }
+
+
+
+
 
 

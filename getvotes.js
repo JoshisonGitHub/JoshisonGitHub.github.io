@@ -52,6 +52,8 @@ http.onload = function(){
         //source https://support.syncfusion.com/kb/article/9536/how-to-create-horizontal-bar-chart-in-js
         var chart = new ej.charts.Chart({
 
+            width: 'auto', // Set the width of the chart
+            height: 'auto', // Set the height of the chart
             title: 'Voting List',
             
             titleStyle:{
