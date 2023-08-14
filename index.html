@@ -51,6 +51,7 @@
 
 <body class = "text-white" id = "mainbody">
 
+   
   
   <nav class="navbar navbar-custom navbar-expand-md navbar-dark">
     <button class="btn navbar-brand text-white bg-transparent" onclick="base_page()" type="button"><b>Anime Society</b></button>
@@ -83,6 +84,8 @@
       </ul>
     </div>
   </nav>
+
+ 
 
   <div id = "Archive" style="display: none; text-align: center; margin: 30px; ">
     <hr class="custom">
@@ -257,14 +260,15 @@
     </div>
   </div> 
 
-  <div id = "votinglist" style="display: none;">
+  <div id = "votinglist" style="display: block;">
     <hr class="custom">
     <!-- <h1 style = "margin: 10px">Voting List</h1> -->
     <!-- <hr class="custom"> -->
     <div id="container" class = "chart-container"></div> 
     
    
-  </div> 
+  </div>
+
 
   <div id = "voteforshow" style="display: none;">
     <hr class="custom">
@@ -295,6 +299,10 @@
   </div> 
   
 
+  
+
+
+
 
   <footer>
     <hr class="custom">
@@ -307,4 +315,19 @@
   <!-- <script type="module" src="../getdata.js"></script> -->
   <script src="buttons.js"></script>
   <script src="getvotes.js"></script>
+  <script>
+    // JavaScript to show and hide the div
+    window.onload = function() {
+      var myDiv = document.getElementById("votinglist");
+  
+      // Show the div
+      myDiv.style.display = "block";
+  
+      // Wait for 1000 milliseconds (1 second)
+      setTimeout(function() {
+        // Hide the div
+        myDiv.style.display = "none";
+      }, 1);
+    };
+  </script>
 </html>
