@@ -84,7 +84,8 @@ button {
         
     }
     .grid-child {
-        background: darkblue; 
+        background: darkblue;
+        /*background: rgb(107, 4, 133); */
         font-size: 20px; 
         padding: 10px; 
         border: 1px solid lightgray; 
@@ -179,7 +180,12 @@ hr.custom {
 }
 
 
-
+#footer {
+    position: fixed;
+    bottom: 0;
+ 
+    
+ }
 
 
 
