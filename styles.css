@@ -3,7 +3,9 @@ body {
     background-color: rgb(79, 6, 79) !important;
     background-repeat: no-repeat !important;
     
-    background-size: cover !important;
+    background-size: cover !important; 
+   
+    background-attachment: fixed !important;
     height: 100% !important;
     background-image: url("purplewave.gif");
 }
@@ -185,7 +187,7 @@ hr.custom {
     bottom: 0;
  
     
- }
+}
 
 
 

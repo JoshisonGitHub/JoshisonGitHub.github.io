@@ -57,7 +57,8 @@ btn.addEventListener('click', function onClick() {
 
 var tests = document.getElementById("votinglist");
 var t = true;
-if(t && tests.style.display == "block" ){
+if(t && tests.style.display == "none" ){
     t = false;
+    tests.style.display == "block" 
     tests.style.display == "none" 
 }
