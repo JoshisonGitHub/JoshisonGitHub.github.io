@@ -54,3 +54,10 @@ btn.addEventListener('click', function onClick() {
   btn.style.backgroundColor = 'salmon';
   btn.style.color = 'white';
 });
+
+var tests = document.getElementById("votinglist");
+var t = true;
+if(t && tests.style.display == "block" ){
+    t = false;
+    tests.style.display == "none" 
+}
