@@ -13,8 +13,8 @@ http.onload = function(){
         let votes = JSON.parse(this.responseText);
 
 
-        console.log(votes);
-        console.log("test");
+        //console.log(votes);
+        //console.log("test");
 
         
         let output = "";
@@ -24,12 +24,12 @@ http.onload = function(){
 
         for(let item of votes){
 
-            console.log(item.digitMembersCode)
+            //console.log(item.digitMembersCode)
             if(item.digitMembersCode == MembersCode){
                 var itemexists = false;
                 for(let i = 0; i < list.length; i++){
                     
-                    console.log(list[i][0])
+                    //console.log(list[i][0])
                     if(item.nameOfTheShowFilm == list[i][0]){
                         itemexists = true;
                         list[i][1] += 1
@@ -42,6 +42,10 @@ http.onload = function(){
             }
             
         }
+        list.reverse();
+        list.sort(function(a, b) {
+            return a[1] - b[1]; // Compare the second elements (votes) of the arrays
+        });
         for(let i = 0; i < list.length; i++){
             data.push({ name: list[i][0], votes: list[i][1], color: getRandomColor()})
 
