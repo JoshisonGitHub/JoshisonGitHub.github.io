@@ -54,8 +54,9 @@ http.onload = function(){
         var chart = new ej.charts.Chart({
 
             width: 'auto', // Set the width of the chart
-            height: 'auto', // Set the height of the chart
+            height: '250%', // Set the height of the chart
             title: 'Voting List',
+            
             
             titleStyle:{
                 color: 'white',
@@ -76,6 +77,9 @@ http.onload = function(){
                 title: "Shows / Films",
                 titleStyle: { color: 'white' },
                 labelStyle: { color: 'white' },
+                minimum: 0,
+              
+                
             },
             //Initializing Primary Y Axis
             primaryYAxis: {
@@ -84,7 +88,7 @@ http.onload = function(){
                 labelStyle: { color: 'white' },
                 minimum: 0,
                 interval: 1,
-
+               
             },
             //Initializing Chart Series
             series: [
