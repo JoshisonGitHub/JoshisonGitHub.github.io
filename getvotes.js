@@ -14,6 +14,7 @@ http.onload = function(){
 
 
         console.log(votes);
+        console.log("test");
 
         
         let output = "";
