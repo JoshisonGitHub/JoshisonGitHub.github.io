@@ -13,7 +13,7 @@ http.onload = function(){
         let votes = JSON.parse(this.responseText);
 
 
-        //console.log(votes);
+        console.log(votes);
         //console.log("test");
 
         
